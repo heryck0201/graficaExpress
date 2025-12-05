@@ -25,14 +25,14 @@
     </div>
 </div>
 
-<div class="container mt-4 mb-4">
-    <div class="row">
-        <div class="col-lg-3 mt-3" *ngFor="let pd of productData">
-        <div class="productbox">
-            <img src="{{pd.img}}"/>
-            <h1>{{pd.name}}</h1>
-            <p>{{pd.description}}</p>
-        </div>
-        </div>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-lg-3 mt-3" *ngFor="let pd of productData">
+      <div class="productbox" (click)="goToProduct(pd.id)">
+        <img [src]="pd.img" class="img-fluid" />
+        <h1>{{ pd.name }}</h1>
+        <p>{{ pd.description }}</p>
+      </div>
     </div>
+  </div>
 </div>
