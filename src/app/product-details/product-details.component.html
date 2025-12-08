@@ -6,10 +6,20 @@
   <h3>Modelos disponíveis</h3>
 
   <div class="row">
-    <div class="productbox col-lg-4 mt-3" *ngFor="let m of product.models">
-      <img [src]="m.img" class="img-fluid model-img">
-      <p>{{ m.desc }}</p>
-    </div>
+  <div class="productbox col-lg-4 mt-3" *ngFor="let m of product.models">
+    
+    <img [src]="m.img" class="img-fluid model-img">
+
+    <p>{{ m.desc }}</p>
+
+    <button 
+      class="btn btn-success w-100 mt-2"
+      (click)="contactWhatsApp(m)"
+    >
+      <i class="bi bi-whatsapp"></i> Fale conosco
+    </button>
+
   </div>
+</div>
 
 </div>

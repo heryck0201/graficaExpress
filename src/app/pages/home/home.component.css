@@ -1,34 +1,36 @@
-.Box{
+.Box {
     background-color: rgb(66,60,60);
     padding: 20px 20px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
-.Box h1{
+.Box h1 {
     font-size: 50px;
     font-weight: bold;
     color: yellow;
 }
 
-.Box p{
+.Box p {
     font-size: 20px;
     font-style: italic;
     color: white;
 }
 
-.productbox{
-padding: 10px 5 px
+.productbox {
+    padding: 10px 5px;
+    cursor: pointer;
 }
 
-.productbox img{
+.productbox img {
     width: 100%;
     height: 250px;
     object-fit: cover;
     border-radius: 5px;
 }
 
-.productbox h1{
- font-size: 18px;
- margin-top: 20px;
- font-weight: bold;
+.productbox h1 {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
 }

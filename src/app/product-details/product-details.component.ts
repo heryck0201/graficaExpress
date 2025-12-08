@@ -17,8 +17,16 @@ export class ProductDetailsComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    let id = this.route.snapshot.params['id'];
-
+    const id = this.route.snapshot.params['id'];
     this.product = this.service.productDetails.find(x => x.id == id);
   }
+
+  contactWhatsApp(model: any) {
+  const phone = "5591985601849";
+  const message = `Olá, eu gostaria de saber mais sobre ${this.product.name}.`;
+
+  const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+
+  window.open(url, "_blank");
+}
 }

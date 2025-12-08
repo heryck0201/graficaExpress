@@ -158,7 +158,7 @@ export class OrderDetailsService {
   },
   {
     id: 1,
-    name: "Panfleto",
+    name: "Calendário",
     description: "Papel couché, reciclado, offset",
     img: "assets/img/panfleto1.jpg",
 
@@ -179,7 +179,7 @@ export class OrderDetailsService {
   },
   {
     id: 1,
-    name: "Panfleto",
+    name: "Bolsas",
     description: "Papel couché, reciclado, offset",
     img: "assets/img/panfleto1.jpg",
 
@@ -200,7 +200,7 @@ export class OrderDetailsService {
   },
   {
     id: 1,
-    name: "Panfleto",
+    name: "Blocos",
     description: "Papel couché, reciclado, offset",
     img: "assets/img/panfleto1.jpg",
 
@@ -221,7 +221,7 @@ export class OrderDetailsService {
   },
   {
     id: 1,
-    name: "Panfleto",
+    name: "Banners e Adesivos",
     description: "Papel couché, reciclado, offset",
     img: "assets/img/panfleto1.jpg",
 
@@ -242,7 +242,7 @@ export class OrderDetailsService {
   },
   {
     id: 1,
-    name: "Panfleto",
+    name: "Agenda e apostilas",
     description: "Papel couché, reciclado, offset",
     img: "assets/img/panfleto1.jpg",
 
@@ -261,27 +261,5 @@ export class OrderDetailsService {
       }
     ]
   },
-  {
-    id: 1,
-    name: "Panfleto",
-    description: "Papel couché, reciclado, offset",
-    img: "assets/img/panfleto1.jpg",
-
-    models: [
-      {
-        img: "assets/imgPanfleto/modelo1.jpg",
-        desc: "Modelo frente e verso 10x15cm"
-      },
-      {
-        img: "assets/imgPanfleto/modelo2.jpg",
-        desc: "Modelo promocional A5"
-      },
-      {
-        img: "assets/imgPanfleto/modelo3.jpg",
-        desc: "Modelo 1/3 de A4 – panfleto vertical"
-      }
-    ]
-  },
-
   ];
 }
