@@ -1,3 +1,4 @@
+import { LojaComponent } from './pages/loja/loja.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
@@ -8,6 +9,7 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 
 const routes: Routes = [
   {path: '', component:HomeComponent},
+  {path: 'loja', component:LojaComponent},
   {path: 'menu', component:MenuComponent},
   {path: 'about', component:AboutComponent},
   {path: 'contact', component:ContactComponent},

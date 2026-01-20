@@ -1,10 +1,39 @@
-<div class="container mt-5 mb-4">
-    <h1 class="text-center gradient-title">
-      AQUI VOCÊ TEM O MELHOR DE UMA GRÁFICA!!!
-    </h1>
-</div>
+<!-- HERO / BANNER COM CARROUSEL -->
+<section class="hero-carousel">
+  <div
+    class="carousel-bg"
+    *ngFor="let img of images; let i = index"
+    [ngClass]="{ active: i === currentIndex }"
+    [style.backgroundImage]="'url(' + img + ')'"
+  ></div>
 
-<div class="container mt-5">
+  <div class="overlay"></div>
+
+  <div class="hero-content">
+    <h1>
+      <span class="highlight">Gráfica em Belém:</span>
+      Solução Completa em Impressos com
+      <span class="highlight">Agilidade e Qualidade!</span>
+    </h1>
+
+    <p>
+      Calendários, banners, copos, canecas, camisas personalizadas,
+      agendas e muito mais com qualidade profissional e entrega rápida.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="https://wa.me/5591999999999" target="_blank" class="btn btn-whatsapp">
+        WhatsApp
+      </a>
+      <button class="btn btn-outline">
+        Ligar
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- SEÇÃO DE PRODUTOS (SEU CÓDIGO ATUAL) -->
+<!-- <div class="container mt-5">
   <div class="row">
     <div class="col-lg-3 mt-3" *ngFor="let pd of productData">
       <div class="productbox" (click)="goToProduct(pd.id)">
@@ -14,4 +43,4 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->

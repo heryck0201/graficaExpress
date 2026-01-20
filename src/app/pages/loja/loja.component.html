@@ -1,0 +1,17 @@
+<div class="container mt-5 mb-4">
+    <h1 class="text-center gradient-title">
+      AQUI VOCÊ TEM O MELHOR DE UMA GRÁFICA!!!
+    </h1>
+</div>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-lg-3 mt-3" *ngFor="let pd of productData">
+      <div class="productbox" (click)="goToProduct(pd.id)">
+        <img [src]="pd.img" class="img-fluid" />
+        <h1>{{ pd.name }}</h1>
+        <p>{{ pd.description }}</p>
+      </div>
+    </div>
+  </div>
+</div>
