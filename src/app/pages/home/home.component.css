@@ -34,3 +34,35 @@
     margin-top: 20px;
     font-weight: bold;
 }
+
+.gradient-title {
+  font-size: 48px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(
+    270deg,
+    #ff6a00,
+    #ffcc00,
+    #ff0066,
+    #6a00ff
+  );
+  background-size: 600% 600%;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: gradientMove 6s ease infinite;
+}
+
+/* Animação do gradiente */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

@@ -11,6 +11,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { CarrocelComponent } from './sharepage/carrocel/carrocel.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
+import { HomePrimeComponent } from './home-prime/home-prime.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
     AboutComponent,
     ContactComponent,
     CarrocelComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    HomePrimeComponent
   ],
   imports: [
     BrowserModule,
