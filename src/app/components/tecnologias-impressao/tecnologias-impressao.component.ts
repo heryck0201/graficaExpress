@@ -28,7 +28,6 @@ export class TecnologiasImpressaoComponent implements OnInit {
   }
 ];
 
-
   constructor() {}
 
   ngOnInit(): void {}
