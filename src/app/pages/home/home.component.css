@@ -148,7 +148,7 @@
 }
 
 .btn-whatsapp {
-  background: #ff7a00;
+  background: #25D366; /* verde oficial do WhatsApp */
   color: #fff;
   border: none;
 }
@@ -167,5 +167,40 @@
 
   .gradient-title {
     font-size: 32px;
+  }
+}
+
+/* subtítulo curto (impacto) */
+.hero-subtitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 15px;
+  color: #ffffff;
+}
+
+/* texto descritivo */
+.hero-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  max-width: 720px;
+  margin: 20px auto 35px;
+  opacity: 0.95;
+}
+
+/* destaque dentro do texto */
+.hero-text strong {
+  color: #ffcc00;
+  font-weight: 700;
+}
+
+/* melhora leitura no mobile */
+@media (max-width: 768px) {
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .hero-text {
+    font-size: 0.95rem;
+    line-height: 1.6;
   }
 }

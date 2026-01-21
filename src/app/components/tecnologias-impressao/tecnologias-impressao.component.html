@@ -1,0 +1,26 @@
+<section class="tecnologias-section">
+  <div class="container">
+
+    <h2 class="tecnologias-title">
+      Nossas Tecnologias de Impressão
+    </h2>
+
+    <p class="tecnologias-subtitle">
+      Graças ao uso das nossas próprias impressoras, nossa
+      <strong>Gráfica em Belém</strong> consegue proporcionar a melhor
+      relação custo-benefício para os seus impressos.
+    </p>
+
+    <div class="tecnologias-grid">
+      <div class="tec-card" *ngFor="let tec of tecnologias">
+        <div class="tec-image">
+          <img [src]="tec.imagem" [alt]="tec.titulo" />
+        </div>
+
+        <h3>{{ tec.titulo }}</h3>
+        <p>{{ tec.descricao }}</p>
+      </div>
+    </div>
+
+  </div>
+</section>

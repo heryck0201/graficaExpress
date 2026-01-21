@@ -11,6 +11,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { CarrocelComponent } from './sharepage/carrocel/carrocel.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { LojaComponent } from './pages/loja/loja.component';
+import { TecnologiasImpressaoComponent } from './components/tecnologias-impressao/tecnologias-impressao.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { LojaComponent } from './pages/loja/loja.component';
     ContactComponent,
     CarrocelComponent,
     ProductDetailsComponent,
-    LojaComponent
+    LojaComponent,
+    TecnologiasImpressaoComponent
   ],
   imports: [
     BrowserModule,
