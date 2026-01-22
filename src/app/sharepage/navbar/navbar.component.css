@@ -1,28 +1,43 @@
+/* Links */
 .navbar-light .navbar-nav .nav-link {
   color: #ffffff;
   font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 .navbar-light .navbar-nav .nav-link.active-link {
   color: #ffffff;
   text-decoration: underline;
-  text-underline-offset: 6px; /* distância do ___ */
-  text-decoration-thickness: 3px; /* espessura do ___ */
+  text-underline-offset: 6px;
+  text-decoration-thickness: 3px;
 }
 
+/* Navbar base */
 .custom-elevation {
   background: #FF0000;
-  /* background: radial-gradient(circle,rgba(63, 94, 251, 1) 0%, rgb(255, 35, 79) 100%); opcional, já que você removeu o bg-light */
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2); /* efeito de elevation */
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
 }
 
+/* Logo */
 .imgLogo {
   max-height: 70px;
-  width: 150px;
+  width: auto;
+  transition: all 0.3s ease;
 }
 
+/* Brand */
 .navbar-brand {
   padding: 0;
-  margin-left: 200px; /* ajuste fino */
+  margin-left: 200px;
 }
 
+/* ===== EFEITO AO ROLAR ===== */
+.navbar-scroll.scrolled {
+  background: #d80000; /* tom mais fechado */
+  box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+}
+
+.navbar-scroll.scrolled .imgLogo {
+  max-height: 55px;
+}
