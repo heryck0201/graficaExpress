@@ -13,6 +13,8 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { LojaComponent } from './pages/loja/loja.component';
 import { TecnologiasImpressaoComponent } from './components/tecnologias-impressao/tecnologias-impressao.component';
 import { OQueFazemosComponent } from './o-que-fazemos/o-que-fazemos.component';
+import { ProcuradosComponent } from './components/procurados/procurados.component';
+import { CtaOrcamentoComponent } from './components/cta-orcamento/cta-orcamento.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { OQueFazemosComponent } from './o-que-fazemos/o-que-fazemos.component';
     ProductDetailsComponent,
     LojaComponent,
     TecnologiasImpressaoComponent,
-    OQueFazemosComponent
+    OQueFazemosComponent,
+    ProcuradosComponent,
+    CtaOrcamentoComponent
   ],
   imports: [
     BrowserModule,

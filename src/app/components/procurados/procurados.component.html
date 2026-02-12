@@ -1,0 +1,22 @@
+<section class="trabalhos">
+  <div class="container">
+
+    <div class="titulo-secao">
+      <h2>OS MAIS PROCURADOS</h2>
+    </div>
+
+    <div class="grid-trabalhos">
+      <div class="card-trabalho" *ngFor="let item of trabalhos">
+        <div class="img-wrapper">
+          <img [src]="item.img" [alt]="item.titulo">
+        </div>
+
+        <div class="card-body">
+          <h3>{{ item.titulo }}</h3>
+          <p>{{ item.descricao }}</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
