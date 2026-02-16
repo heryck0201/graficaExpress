@@ -6,7 +6,7 @@
     </div>
 
     <div class="grid-trabalhos">
-      <div class="card-trabalho" *ngFor="let item of trabalhos">
+      <div class="card-trabalho" *ngFor="let item of trabalhos" (click)="goToProduct(item.id)">
         <div class="img-wrapper">
           <img [src]="item.img" [alt]="item.titulo">
         </div>

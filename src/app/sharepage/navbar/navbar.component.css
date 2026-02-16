@@ -1,43 +1,52 @@
-/* Links */
-.navbar-light .navbar-nav .nav-link {
-  color: #ffffff;
-  font-weight: bold;
-  transition: color 0.3s ease;
+/* NAVBAR BASE */
+.custom-elevation {
+  background: #ff0000;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+  padding: 0;                 /* remove altura extra */
 }
 
-.navbar-light .navbar-nav .nav-link.active-link {
-  color: #ffffff;
+/* CONTAINER DA NAVBAR */
+.navbar .container {
+  height: 70px;               /* ALTURA TOTAL DA NAVBAR */
+  display: flex;
+  align-items: center;        /* centraliza verticalmente */
+}
+
+/* LOGO */
+.imgLogo {
+  height: 55px;   /* menor que a navbar pra sobrar respiro */
+  width: auto;
+}
+
+/* LINKS */
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  margin-left: 30px;
+  font-size: 17px;
+  letter-spacing: 0.3px;
+}
+
+/* LINK ATIVO */
+.navbar-nav .nav-link.active-link {
   text-decoration: underline;
   text-underline-offset: 6px;
   text-decoration-thickness: 3px;
 }
 
-/* Navbar base */
-.custom-elevation {
-  background: #FF0000;
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease;
+/* HOVER */
+.navbar-nav .nav-link:hover {
+  opacity: 0.8;
 }
 
-/* Logo */
-.imgLogo {
-  max-height: 70px;
-  width: auto;
-  transition: all 0.3s ease;
-}
-
-/* Brand */
-.navbar-brand {
-  padding: 0;
-  margin-left: 200px;
-}
-
-/* ===== EFEITO AO ROLAR ===== */
+/* ===== NAVBAR AO ROLAR ===== */
 .navbar-scroll.scrolled {
-  background: #d80000; /* tom mais fechado */
-  box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+  background: #d80000;
+  padding: 5px 0;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  height: 60px;
 }
 
 .navbar-scroll.scrolled .imgLogo {
-  max-height: 55px;
+  height: 45px;
 }
