@@ -53,7 +53,7 @@ export class OrderDetailsService {
   },
     {
     id: 3,
-    name: "Diversos Envelopes",
+    name: "Envelopes",
     description: "Papel couché, reciclado, offset",
     img: "assets/img/envelope1.jpg",
 
@@ -74,7 +74,7 @@ export class OrderDetailsService {
   },
     {
     id: 4,
-    name: "Cartões Diversos",
+    name: "Cartões",
     description: "Papel couché, reciclado, offset",
     img: "assets/img/cartaoVisita1.jpg",
 
@@ -84,7 +84,7 @@ export class OrderDetailsService {
         desc: "Modelo frente e verso 10x15cm"
       },
       {
-        img: "assets/imgCartoesDiversos/cartaoCasamento1.jpg",
+        img: "assets/imgCartoesDiversos/cartaoVisita3.jpg",
         desc: "Modelo promocional A5"
       },
       {
@@ -95,7 +95,7 @@ export class OrderDetailsService {
   },
     {
     id: 5,
-    name: "Cardápio e Cartazes",
+    name: "Cardápios",
     description: "Papel couché, reciclado, offset",
     img: "assets/img/cardapio1.jpg",
 
@@ -105,7 +105,7 @@ export class OrderDetailsService {
         desc: "Modelo frente e verso 10x15cm"
       },
       {
-        img: "assets/imgCardapiosCartaz/cartaz1.jpg",
+        img: "assets/imgCardapiosCartaz/cardapio2.jpg",
         desc: "Modelo promocional A5"
       },
       {
@@ -139,124 +139,124 @@ export class OrderDetailsService {
     id: 7,
     name: "Camisas",
     description: "Papel couché, reciclado, offset",
-    img: "assets/img/panfleto1.jpg",
+    img: "assets/imgCamisas/camisa1.jpg",
 
     models: [
       {
-        img: "assets/imgPanfleto/modelo1.jpg",
+        img: "assets/imgCamisas/camisa1.jpg",
         desc: "Modelo frente e verso 10x15cm"
       },
       {
-        img: "assets/imgPanfleto/modelo2.jpg",
+        img: "assets/imgCamisas/camisa2.jpg",
         desc: "Modelo promocional A5"
       },
       {
-        img: "assets/imgPanfleto/modelo3.jpg",
+        img: "assets/imgCamisas/camisa3.jpg",
         desc: "Modelo 1/3 de A4 – panfleto vertical"
       }
     ]
   },
   {
-    id: 1,
-    name: "Calendário",
+    id: 8,
+    name: "Calendários",
     description: "Papel couché, reciclado, offset",
-    img: "assets/img/panfleto1.jpg",
+    img: "assets/imgCalendario/calendario3.jpg",
 
     models: [
       {
-        img: "assets/imgPanfleto/modelo1.jpg",
+        img: "assets/imgCalendario/calendario1.jpg",
         desc: "Modelo frente e verso 10x15cm"
       },
       {
-        img: "assets/imgPanfleto/modelo2.jpg",
+        img: "assets/imgCalendario/calendario1.jpg",
         desc: "Modelo promocional A5"
       },
       {
-        img: "assets/imgPanfleto/modelo3.jpg",
+        img: "assets/imgCalendario/calendario3.jpg",
         desc: "Modelo 1/3 de A4 – panfleto vertical"
       }
     ]
   },
   {
-    id: 1,
+    id: 9,
     name: "Bolsas",
     description: "Papel couché, reciclado, offset",
-    img: "assets/img/panfleto1.jpg",
+    img: "assets/imgBolsas/ecoBag.jpg",
 
     models: [
       {
-        img: "assets/imgPanfleto/modelo1.jpg",
+        img: "assets/imgBolsas/mochilaSacola.jpg",
         desc: "Modelo frente e verso 10x15cm"
       },
       {
-        img: "assets/imgPanfleto/modelo2.jpg",
+        img: "assets/imgBolsas/ecoBag.jpg",
         desc: "Modelo promocional A5"
       },
       {
-        img: "assets/imgPanfleto/modelo3.jpg",
+        img: "assets/imgBolsas/bolsa2.jpg",
         desc: "Modelo 1/3 de A4 – panfleto vertical"
       }
     ]
   },
   {
-    id: 1,
+    id: 10,
     name: "Blocos",
     description: "Papel couché, reciclado, offset",
-    img: "assets/img/panfleto1.jpg",
+    img: "assets/imgBloco/bloco1.jpg",
 
     models: [
       {
-        img: "assets/imgPanfleto/modelo1.jpg",
+        img: "assets/imgBloco/bloco1.jpg",
         desc: "Modelo frente e verso 10x15cm"
       },
       {
-        img: "assets/imgPanfleto/modelo2.jpg",
+        img: "assets/imgBloco/blocoNotas1.jpg",
         desc: "Modelo promocional A5"
       },
       {
-        img: "assets/imgPanfleto/modelo3.jpg",
+        img: "assets/imgBloco/bloco1.jpg",
         desc: "Modelo 1/3 de A4 – panfleto vertical"
       }
     ]
   },
   {
-    id: 1,
-    name: "Banners e Adesivos",
+    id: 11,
+    name: "Banners",
     description: "Papel couché, reciclado, offset",
-    img: "assets/img/panfleto1.jpg",
+    img: "assets/imgBannersAdesivos/banner1.jpg",
 
     models: [
       {
-        img: "assets/imgPanfleto/modelo1.jpg",
+        img: "assets/imgBannersAdesivos/banner1.jpg",
         desc: "Modelo frente e verso 10x15cm"
       },
       {
-        img: "assets/imgPanfleto/modelo2.jpg",
+        img: "assets/imgBannersAdesivos/banner2.jpg",
         desc: "Modelo promocional A5"
       },
       {
-        img: "assets/imgPanfleto/modelo3.jpg",
+        img: "assets/imgBannersAdesivos/banner3.jpg",
         desc: "Modelo 1/3 de A4 – panfleto vertical"
       }
     ]
   },
   {
-    id: 1,
-    name: "Agenda e apostilas",
+    id: 12,
+    name: "Agendas",
     description: "Papel couché, reciclado, offset",
-    img: "assets/img/panfleto1.jpg",
+    img: "assets/imgAgendaApostila/agenda1.jpg",
 
     models: [
       {
-        img: "assets/imgPanfleto/modelo1.jpg",
+        img: "assets/imgAgendaApostila/agenda2.jpg",
         desc: "Modelo frente e verso 10x15cm"
       },
       {
-        img: "assets/imgPanfleto/modelo2.jpg",
+        img: "assets/imgAgendaApostila/agenda3.jpg",
         desc: "Modelo promocional A5"
       },
       {
-        img: "assets/imgPanfleto/modelo3.jpg",
+        img: "assets/imgAgendaApostila/agenda1.jpg",
         desc: "Modelo 1/3 de A4 – panfleto vertical"
       }
     ]
