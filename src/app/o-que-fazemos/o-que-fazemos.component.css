@@ -1,13 +1,8 @@
-/* ================================
-   O QUE FAZEMOS
-================================ */
-
 .o-que-fazemos {
   padding: 80px 0;
   background-color: #f9f9f9;
 }
 
-/* TEXTO LATERAL */
 .o-que-fazemos .section-tag {
   font-weight: 700;
   color: #e30613;
@@ -32,10 +27,6 @@
   line-height: 1.7;
 }
 
-/* ================================
-   CARD DE SERVIÇO
-================================ */
-
 .o-que-fazemos .service-card {
   background: #ffffff;
   border-radius: 20px;
@@ -45,17 +36,13 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 
   display: flex;
-  flex-direction: column; /* 🔥 garante imagem em cima */
+  flex-direction: column;
 }
 
 .o-que-fazemos .service-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
 }
-
-/* ================================
-   IMAGEM (FORÇADA NO TOPO)
-================================ */
 
 .o-que-fazemos .image-wrapper {
   width: 100%;
@@ -68,12 +55,8 @@
   width: 100% !important;
   height: 100% !important;
   object-fit: cover;
-  display: block !important;   /* 🔥 mata inline */
+  display: block !important;
 }
-
-/* ================================
-   CONTEÚDO
-================================ */
 
 .o-que-fazemos .card-content {
   padding: 26px;

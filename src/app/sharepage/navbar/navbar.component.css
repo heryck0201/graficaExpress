@@ -1,24 +1,31 @@
-/* NAVBAR BASE */
+
 .custom-elevation {
   background: #ff0000;
   box-shadow: 0 2px 10px rgba(0,0,0,0.15);
-  padding: 0;                 /* remove altura extra */
+  padding: 0;
 }
 
-/* CONTAINER DA NAVBAR */
+
 .navbar .container {
-  height: 70px;               /* ALTURA TOTAL DA NAVBAR */
+  height: 70px;               
   display: flex;
-  align-items: center;        /* centraliza verticalmente */
+  align-items: center;
 }
 
-/* LOGO */
+.logo-box {
+  background: #ffffff;
+  padding: 8px 25px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .imgLogo {
-  height: 55px;   /* menor que a navbar pra sobrar respiro */
+  height: 45px;
   width: auto;
 }
 
-/* LINKS */
 .navbar-nav .nav-link {
   color: #fff !important;
   font-weight: 600;
@@ -27,19 +34,18 @@
   letter-spacing: 0.3px;
 }
 
-/* LINK ATIVO */
 .navbar-nav .nav-link.active-link {
   text-decoration: underline;
   text-underline-offset: 6px;
   text-decoration-thickness: 3px;
 }
 
-/* HOVER */
+
 .navbar-nav .nav-link:hover {
   opacity: 0.8;
 }
 
-/* ===== NAVBAR AO ROLAR ===== */
+
 .navbar-scroll.scrolled {
   background: #d80000;
   padding: 5px 0;

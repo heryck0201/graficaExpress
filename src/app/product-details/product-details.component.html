@@ -1,25 +1,46 @@
-<div class="container mt-4" *ngIf="product">
+<div class="product-details" *ngIf="product">
 
-  <h1>{{ product.name }}</h1>
-  <p>{{ product.description }}</p>
+  <div class="container">
 
-  <h3>Modelos disponíveis</h3>
+    <!-- Cabeçalho do Produto -->
+    <div class="product-header text-center">
+      <h1>{{ product.name }}</h1>
+      <p class="product-description">
+        {{ product.description }}
+      </p>
+    </div>
 
-  <div class="row">
-  <div class="productbox col-lg-4 mt-3" *ngFor="let m of product.models">
-    
-    <img [src]="m.img" class="img-fluid model-img">
+    <!-- Modelos -->
+    <h3 class="section-title text-center">
+      Modelos disponíveis
+    </h3>
 
-    <p>{{ m.desc }}</p>
+    <div class="row mt-4">
+      <div class="col-md-6 col-lg-4 mb-4" *ngFor="let m of product.models">
 
-    <button 
-      class="btn btn-success w-100 mt-2"
-      (click)="contactWhatsApp(m)"
-    >
-      <i class="bi bi-whatsapp"></i> Fale conosco
-    </button>
+        <div class="model-card">
+
+          <div class="image-wrapper">
+            <img [src]="m.img" [alt]="m.desc">
+          </div>
+
+          <div class="card-content">
+            <p>{{ m.desc }}</p>
+
+            <button 
+              class="whatsapp-btn"
+              (click)="contactWhatsApp(m)"
+            >
+              <i class="bi bi-whatsapp"></i>
+              Fale conosco
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
 
   </div>
-</div>
 
 </div>
